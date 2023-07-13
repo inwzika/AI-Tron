@@ -1,0 +1,43 @@
+{
+  "board": [
+    "WWWWWWWWWWWWW",
+    "WEEEEEEEEEEEW",
+    "WEEEEEEEEEEEW",
+    "WEEEEEEEEEEEW",
+    "WEEEWWWWWEEEW",
+    "WEEEWWWWWEEEW",
+    "WEEEWWWWWEEEW",
+    "WEEEWWWWWEEEW",
+    "WEEEWWWWWEEEW",
+    "WEEEEEEEEEEEW",
+    "WEEEEEEEEEEEW",
+    "WEEEEEEEEEEEW",
+    "WWWWWWWWWWWWW"
+  ],
+  "constants": {
+    "max_cycles": 300,
+    "init_health": 3,
+    "wall_breaker_cooldown": 12,
+    "wall_breaker_duration": 6,
+    "wall_score_coefficient": 1,
+    "area_wall_crash_score": -20,
+    "my_wall_crash_score": -40,
+    "enemy_wall_crash_score": -60
+  },
+  "agents": {
+    "Blue": {
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "direction": "Right"
+    },
+    "Yellow": {
+      "position": {
+        "x": 6,
+        "y": 11
+      },
+      "direction": "Left"
+    }
+  }
+}
